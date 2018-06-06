@@ -9,5 +9,6 @@
 <body>
 <h1>Authorize me to git your github info</h1>
 
+<a href="https://github.com/login/oauth/authorize?client_id=XXXXXXXXXX&redirect_uri=http://localhost:8080/result&scope=user&state=klfjf264oefs">Sure, I trust you (famous last words)</a>
 </body>
 </html>

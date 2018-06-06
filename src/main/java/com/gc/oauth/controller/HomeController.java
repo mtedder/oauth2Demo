@@ -26,5 +26,14 @@ public class HomeController {
 		
 		return new ModelAndView("home");
 	}
+	
+	/**
+	 * This request mapping is the target for the callback url.
+	 * @return result.jsp
+	 */
+	@RequestMapping("/result")
+	public ModelAndView result() {
+		return new ModelAndView("result");
+	}
 
 }
